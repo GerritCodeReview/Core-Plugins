@@ -1,0 +1,26 @@
+diff --unified --recursive --text libreoffice-7.0.3.1/sd/source/ui/animations/CustomAnimationDialog.cxx libreoffice-7.0.3.1.new/sd/source/ui/animations/CustomAnimationDialog.cxx
+--- libreoffice-7.0.3.1/sd/source/ui/animations/CustomAnimationDialog.cxx	2020-10-21 15:09:11.000000000 -0500
++++ libreoffice-7.0.3.1.new/sd/source/ui/animations/CustomAnimationDialog.cxx	2020-11-28 23:46:05.012871224 -0600
+@@ -702,10 +702,8 @@
+     // Shrink factor is calculated as (1 + $fValue)
+     // e.g 1 + (-0.75) = 0.25 => shrink to 25% of the size
+     // 0.25 = -0.75 + 1
+-    if ( fValue1 < 0.0 )
+-        fValue1 += 1;
+-    if ( fValue2 < 0.0 )
+-        fValue2 += 1;
++    fValue1 += 1;
++    fValue2 += 1;
+ 
+     long nValue;
+     if( fValue1 )
+@@ -724,8 +722,7 @@
+     // Shrink factor is calculated as (1 + $fValue)
+     // e.g shrink to 25% of the size: 0.25 = 1 + $fValue =>
+     // $fValue = -0.75; -0.75 = 0.25 -1
+-    if ( fValue1 < 1.0 )
+-        fValue1 -= 1;
++    fValue1 -= 1;
+ 
+     double fValue2 = fValue1;
+ 
