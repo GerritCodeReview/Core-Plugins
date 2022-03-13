@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5f5279b_b176009d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1146426
+      },
+      "writtenOn": "2022-03-13T00:41:39Z",
+      "side": 1,
+      "message": "JavaScript you account like a bug",
+      "revId": "e47c2e28771813220f133e71d9a980cef0c5b8b7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
