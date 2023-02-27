@@ -33,6 +33,41 @@
       "message": "${7*7}{{7*7}}\"--\u003e\u003c/script\u003e\u003cimg/src\u003dx onerror\u003d\u0027;alert(0);\u0027\u003e",
       "revId": "e2dcce05d8d94291ccea3bb1369cb0c2c9e627be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0a84a5d_d3eabee1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1157506
+      },
+      "writtenOn": "2023-02-27T03:36:35Z",
+      "side": 1,
+      "message": "aasdas",
+      "revId": "e2dcce05d8d94291ccea3bb1369cb0c2c9e627be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24534a65_efee31c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1157506
+      },
+      "writtenOn": "2023-02-27T03:36:35Z",
+      "side": 1,
+      "message": "\u003e ${7*7}{{7*7}}\"--\u003e\u003c/script\u003e\u003cimg/src\u003dx onerror\u003d\u0027;alert(0);\u0027\u003e",
+      "parentUuid": "0f677801_408e6bb2",
+      "revId": "e2dcce05d8d94291ccea3bb1369cb0c2c9e627be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
